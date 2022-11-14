@@ -78,4 +78,3 @@ ORDER BY more_than_avg_popularity;
 SELECT alignment, COUNT() FROM marvels
 GROUP BY alignment ORDER BY COUNT() DESC;
 
-What interesting ways are there to filter the data (using AND/OR)?
