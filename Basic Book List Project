@@ -1,0 +1,32 @@
+CREATE TABLE Books (id INTEGER PRIMARY KEY, name TEXT, rating INTEGER );
+
+INSERT INTO Books VALUES (1, "Charlottes Web", 1);
+INSERT INTO Books VALUES (2, "Enders Game", 1);
+INSERT INTO Books VALUES (3, "Harry Potter", 1);
+INSERT INTO Books VALUES (4, "Captain Underpants", 1);
+INSERT INTO Books VALUES (5, "Whirligig", 1);
+INSERT INTO Books VALUES (6, "The Giver", 1);
+
+SELECT * FROM Books;
+
+
+*/ Bike Store Project /*
+
+CREATE TABLE bikes (id INTEGER PRIMARY KEY, name TEXT, quantity INTEGER, aisle INTEGER, kind TEXT);
+insert into bikes values (1,"Frames",200, 1,"parts");
+insert into bikes values (2,"Wheels",400,2,"parts");
+insert into bikes values (3,"Tires",400,2,"parts");
+insert into bikes values (4,"Tubes",400,2,"parts");
+insert into bikes values (5,"Bars",100,3,"parts");
+insert into bikes values (6,"seats",100,3,"parts");
+insert into bikes values (7,"wrench",100,4,"tools");
+insert into bikes values (8,"screws",100,4,"tools");
+insert into bikes values (9,"drivers",100,4,"tools");
+insert into bikes values (10,"keys",100,4,"tools");
+insert into bikes values (11,"bolts",100,4,"tools");
+insert into bikes values (12,"pump",50,5,"tools");
+insert into bikes values (13,"attachments",100,5,"tools");
+insert into bikes values (14,"wires",150,3,"parts");
+insert into bikes values (15,"grips",200,3,"parts");
+
+SELECT * FROM bikes ORDER by aisle
