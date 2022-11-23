@@ -82,3 +82,22 @@ FROM BIT_DB.JanSales
 GROUP BY product
 ORDER BY sum(quantity*price) desc 
 LIMIT 1
+
+/*The account numbers, the count of order IDs, product, quantity, price, order date, and location for all orders that were placed in February.*/
+SELECT cust.acctnum,
+COUNT(cust.order_ID) as Orders,
+Feb.Product,
+Feb.Quantity,
+Feb.price,
+Feb.orderdate,
+Feb.location
+FROM BIT_DB.customers cust
+INNER JOIN BIT_DB.FebSales Feb
+ON cust.order_id=FEB.orderid
+GROUP BY 
+cust.acctnum,
+Feb.Product,
+Feb.Quantity,
+Feb.price,
+Feb.orderdate,
+Feb.location
