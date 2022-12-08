@@ -11,7 +11,7 @@
 
 ## :books: Projects 
 - View my coding projects on **Github** [here](https://github.com/gunheelee54?tab=repositories).
-- View my data vidualizations on **Tableau Public** [here](https://public.tableau.com/app/profile/gunheelee)
+- View my data visualizations on **Tableau Public** [here](https://public.tableau.com/app/profile/gunheelee)
 
 ## :computer: Currently Improving My Skills In...
 - **Python** from [Jose Portilla's](https://www.udemy.com/user/joseportilla/) course on Udemy [Python for Data Science and Machine Learning Bootcamp](https://www.udemy.com/course/python-for-data-science-and-machine-learning-bootcamp/)
