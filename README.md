@@ -19,4 +19,4 @@
 
 ## :electric_plug: Connect With Me
 - [LinkedIn](https://www.linkedin.com/in/gunheelee54/)
-- [Email](mailto: gunheelee54@gmail.com)
+- [Email](mailto:gunheelee54@gmail.com)
